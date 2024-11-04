@@ -1,5 +1,7 @@
-git branch -r
+git branch -a
 git fetch origin
-git push <remote_name> --delete <branch_name> 
-git push <remote_name> --delete --force <branch_name>
-git push origin --delete my-feature 
+git push origin --delete test1
+# git push origin :test1
+# git fetch origin  
+# git push origin --delete master/test1
+# git push origin :master/test1
