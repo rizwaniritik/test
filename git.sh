@@ -1,3 +1,3 @@
 git pull --rebase
-git add .
+git add git.sh
 git rebase --continue
